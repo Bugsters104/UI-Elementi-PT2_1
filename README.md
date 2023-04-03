@@ -10,11 +10,11 @@ Projekts, kas demonstrē UI elementu lietojumu, tēma: MR. Bean
 - [x] Image elementa lietojums
 - [x] Toggle elementa lietojums
 - [x] Toggle Group komponentes piesaiste
-- [ ] Drop down elementa lietojums
-- [ ] Slider elementa lietojums
+- [x] Drop down elementa lietojums
+- [x] Slider elementa lietojums
 - [ ] Audio source objekta lietojums
 - [ ] Scroll view elementa lietojums
 - [ ] Drag and drop funkcionalitātes ieviešana
 - [ ] Projekta sagatavošana .exe un WebGL formātos
-
+- [ ] Switch between scenes
 
