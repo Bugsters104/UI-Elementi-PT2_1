@@ -3,7 +3,7 @@ Projekts, kas demonstrē UI elementu lietojumu, tēma: MR. Bean
 ![MR. Bean attēls](https://www.pngarts.com/files/4/Mr.-Bean-PNG-Image.png)
 
 ## Darāmo darbu saraksts
-- [x] Input fiel lietojums
+- [x] Input field lietojums
 - [x] Text elementa lietojums
 - [x] Button elementa lietojums
 - [x] C# skripta izveide un piesaiste objektam
