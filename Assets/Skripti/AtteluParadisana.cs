@@ -17,6 +17,7 @@ public class AtteluParadisana : MonoBehaviour {
 	public Sprite[] imgArray;
 
 	public GameObject sizeSlider;
+	public GameObject rotationSlider;
 	public void BinaAttels(bool vertiba)
 	{
 		bins.SetActive(vertiba);
@@ -49,10 +50,15 @@ public class AtteluParadisana : MonoBehaviour {
 	public void dropDownChoice(int i) {
 		dropDownImg.GetComponent<Image>().sprite = imgArray[i];
 	}
-	public void sliderChange()
+	public void sizeSliderChange()
 	{
 		float currSize=sizeSlider.GetComponent<Slider>().value;
 		dropDownImg.GetComponent<Image>().transform.localScale = new Vector3(currSize, currSize, currSize);
 	}
 
+	public void rotationSliderChange()
+	{
+		float currSize=rotationSlider.GetComponent<Slider>().value;
+		dropDownImg.GetComponent<Image>().transform.eulerAngles=new Vector3(0, 0, currSize*360);
+	}
 }
